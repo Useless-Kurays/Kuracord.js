@@ -1,9 +1,11 @@
 {
   "name": "kuracord.js",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "An library for interacting with Kuracord API.",
   "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "scripts": {
+    "prepare": "tsc",
     "test": "echo Test"
   },
   "repository": {
