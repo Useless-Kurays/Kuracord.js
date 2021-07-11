@@ -1,0 +1,31 @@
+{
+  "name": "kuracord.js",
+  "version": "0.0.1",
+  "description": "An library for interacting with Kuracord API.",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keneshin/Kuracord.js.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Keneshin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keneshin/Kuracord.js/issues"
+  },
+  "homepage": "https://github.com/Keneshin/Kuracord.js#readme",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.11",
+    "node-fetch": "^2.6.1",
+    "ws": "^7.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "@types/ws": "^7.4.6"
+  }
+}
