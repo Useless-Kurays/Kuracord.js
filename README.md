@@ -15,7 +15,9 @@ console.log(`Logged in as ${client.user.tag}`)
 client.login("bot token here")
 ```
 ## Notes
-Bot accounts are available for creating only through API. You can use Node.JS and [node-fetch](https://npmjs.com/package/node-fetch) package to register a bot. Example: ```js
+Bot accounts are available for creating only through API. You can use Node.JS and [node-fetch](https://npmjs.com/package/node-fetch) package to register a bot. 
+### Example
+```js
 const fetch = require("node-fetch")
 async registerBot(userToken, username) {
 let res = await fetch("https://api.kuracord.tk/api/v2/bots/", {
